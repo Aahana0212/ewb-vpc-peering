@@ -1,0 +1,8 @@
+### Test 04 / Private SSH - shell on App-B through the bastion
+# Run at: 2026-11-10 14:05:47 UTC | Region: ap-south-1 | Student: Ahana Singh
+$ ssh ewb-app-b echo "Connected to: $(hostname)"; hostname -I; whoami; echo "SSH client seen by App-B: $SSH_CLIENT"
+Connected to: ip-10-20-1-10.ap-south-1.compute.internal
+10.20.1.10 
+ec2-user
+SSH client seen by App-B: 10.10.1.10 53800 22
+

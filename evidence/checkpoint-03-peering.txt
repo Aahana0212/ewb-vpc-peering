@@ -1,0 +1,15 @@
+### Checkpoint 03 - Peering connection name, Active status and both VPC IDs
+# Run at: 2026-11-10 14:05:25 UTC | Region: ap-south-1 | Student: Ahana Singh
+$ peering
+--------------------------------------------
+|       DescribeVpcPeeringConnections      |
++----------------+-------------------------+
+|  AccepterCidr  |  10.20.0.0/16           |
+|  AccepterVpc   |  vpc-0f4d0604075ed50b2  |
+|  Id            |  pcx-059b0a21658628dc4  |
+|  Name          |  ewb-a-b-peer           |
+|  RequesterCidr |  10.10.0.0/16           |
+|  RequesterVpc  |  vpc-020e6a4ae72f26d23  |
+|  Status        |  active                 |
++----------------+-------------------------+
+

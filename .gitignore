@@ -1,0 +1,12 @@
+# Never commit keys or live state
+*.pem
+*.key
+.lab-state.env
+.lab-state.env.*
+.aws/
+*.bak.ewb
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/

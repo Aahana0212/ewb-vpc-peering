@@ -1,0 +1,7 @@
+### Laptop -> ewb-bastion (SSH)
+# Run at: 2026-11-10 14:04:22 UTC | Region: ap-south-1 | Student: Ahana Singh
+$ ssh -o ConnectTimeout=15 ewb-bastion hostname; hostname -I
+Warning: Permanently added '13.127.89.183' (ED25519) to the list of known hosts.
+ip-10-10-1-10.ap-south-1.compute.internal
+10.10.1.10 
+

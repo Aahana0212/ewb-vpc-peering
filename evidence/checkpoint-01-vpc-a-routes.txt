@@ -1,0 +1,21 @@
+### Checkpoint 01 - VPC A route tables and associations
+# Run at: 2026-11-10 13:58:48 UTC | Region: ap-south-1 | Student: Ahana Singh
+$ checkpoint_01
+Route table: ewb-rt-a-public (rtb-091fe1676e60093ca)
+Routes:
+- Destination: 10.10.0.0/16
+  State: active
+  Target: local
+- Destination: 0.0.0.0/0
+  State: active
+  Target: igw-0530ce611082eb210
+SubnetAssociations:
+- subnet-02df39163775adaeb
+Route table: ewb-rt-a-private (rtb-0062f635252058615)
+Routes:
+- Destination: 10.10.0.0/16
+  State: active
+  Target: local
+SubnetAssociations:
+- subnet-03570ad6fa57b6647
+

@@ -1,0 +1,12 @@
+### Test 05 / Isolation - App-A and App-B have no public IPv4
+# Run at: 2026-11-10 14:05:51 UTC | Region: ap-south-1 | Student: Ahana Singh
+$ isolation
+-------------------------------------------
+|            DescribeInstances            |
++-----------+--------------+--------------+
+|   Name    |  PrivateIp   | PublicIpv4   |
++-----------+--------------+--------------+
+|  ewb-app-b|  10.20.1.10  |  none        |
+|  ewb-app-a|  10.10.2.10  |  none        |
++-----------+--------------+--------------+
+

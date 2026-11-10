@@ -1,0 +1,16 @@
+### Test 03 / Reverse path - App-B pings App-A over the peering connection
+# Run at: 2026-11-10 14:05:41 UTC | Region: ap-south-1 | Student: Ahana Singh
+$ ssh ewb-app-b hostname; hostname -I; ping -c 4 10.10.2.10
+Warning: Permanently added '10.20.1.10' (ED25519) to the list of known hosts.
+ip-10-20-1-10.ap-south-1.compute.internal
+10.20.1.10 
+PING 10.10.2.10 (10.10.2.10) 56(84) bytes of data.
+64 bytes from 10.10.2.10: icmp_seq=1 ttl=127 time=0.165 ms
+64 bytes from 10.10.2.10: icmp_seq=2 ttl=127 time=0.175 ms
+64 bytes from 10.10.2.10: icmp_seq=3 ttl=127 time=0.471 ms
+64 bytes from 10.10.2.10: icmp_seq=4 ttl=127 time=0.184 ms
+
+--- 10.10.2.10 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3151ms
+rtt min/avg/max/mdev = 0.165/0.248/0.471/0.128 ms
+

@@ -1,0 +1,13 @@
+### Recovery - ewb-sg-app-b inbound rules after restoring ICMP
+# Run at: 2026-11-10 14:06:08 UTC | Region: ap-south-1 | Student: Ahana Singh
+$ show_sg ewb-sg-app-b sg-0cfc7f7fb1a35f499
+Security group: ewb-sg-app-b (sg-0cfc7f7fb1a35f499)
+-------------------------------------------------------------------------------
+|                         DescribeSecurityGroupRules                          |
++------+----------------------------------+-----------+----------------+------+
+| From |              Note                | Protocol  |    Source      | To   |
++------+----------------------------------+-----------+----------------+------+
+|  8   |  App-A echo request              |  icmp     |  10.10.2.10/32 |  0   |
+|  22  |  Bastion private IP (ProxyJump)  |  tcp      |  10.10.1.10/32 |  22  |
++------+----------------------------------+-----------+----------------+------+
+

@@ -1,0 +1,37 @@
+### Checkpoint 04 - Routes and subnet associations for all three route tables
+# Run at: 2026-11-10 14:05:30 UTC | Region: ap-south-1 | Student: Ahana Singh
+$ all_rts
+Route table: ewb-rt-a-private (rtb-0062f635252058615)
+Routes:
+- Destination: 10.10.0.0/16
+  State: active
+  Target: local
+- Destination: 10.20.0.0/16
+  State: active
+  Target: pcx-059b0a21658628dc4
+SubnetAssociations:
+- subnet-03570ad6fa57b6647
+Route table: ewb-rt-b-private (rtb-0d1001f62d1ac57b7)
+Routes:
+- Destination: 10.10.0.0/16
+  State: active
+  Target: pcx-059b0a21658628dc4
+- Destination: 10.20.0.0/16
+  State: active
+  Target: local
+SubnetAssociations:
+- subnet-03772fdd25e6346b4
+Route table: ewb-rt-a-public (rtb-091fe1676e60093ca)
+Routes:
+- Destination: 10.10.0.0/16
+  State: active
+  Target: local
+- Destination: 10.20.0.0/16
+  State: active
+  Target: pcx-059b0a21658628dc4
+- Destination: 0.0.0.0/0
+  State: active
+  Target: igw-0530ce611082eb210
+SubnetAssociations:
+- subnet-02df39163775adaeb
+

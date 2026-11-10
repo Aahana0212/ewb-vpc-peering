@@ -1,0 +1,12 @@
+### Controlled failure - ewb-sg-app-b inbound rules after removing ICMP
+# Run at: 2026-11-10 14:05:53 UTC | Region: ap-south-1 | Student: Ahana Singh
+$ show_sg ewb-sg-app-b sg-0cfc7f7fb1a35f499
+Security group: ewb-sg-app-b (sg-0cfc7f7fb1a35f499)
+-------------------------------------------------------------------------------
+|                         DescribeSecurityGroupRules                          |
++------+----------------------------------+-----------+----------------+------+
+| From |              Note                | Protocol  |    Source      | To   |
++------+----------------------------------+-----------+----------------+------+
+|  22  |  Bastion private IP (ProxyJump)  |  tcp      |  10.10.1.10/32 |  22  |
++------+----------------------------------+-----------+----------------+------+
+
