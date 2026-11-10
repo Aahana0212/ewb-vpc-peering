@@ -4,7 +4,7 @@ Two private VPCs connected by a VPC peering connection, administered through one
 with SSH ProxyJump. Every step of the EWB workbook is automated with the AWS CLI, and every test
 saves labelled evidence for the report.
 
-**Student:** _Your Name_ · **Batch:** _Your Batch_ · **Region:** `ap-south-1` (Mumbai) · **Course:** AWS Architect Associate
+   **Student:** Ahana Singh · **Batch:** AWS Internship Batch 1 · **Region:** `ap-south-1` (Mumbai) · **Course:** AWS Architect Associate
 
 ## Architecture
 
